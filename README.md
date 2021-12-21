@@ -1,3 +1,6 @@
-# Genie App Tutorial
+# Hosting a Genie Application
 
-Preparing an app for JuliaHub deployment: `Genie.Deploy.JuliaHub.mainjl()`. 
+## Introduction
+
+In this tutorial, we demonstrate how to deploy a dashboard using Genie along its associated Stipple framework for interactive applications.
+
