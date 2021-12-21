@@ -2,4 +2,4 @@
 
 using GenieAppTutorial
 push!(Base.modules_warned_for, Base.PkgId(GenieAppTutorial))
-GenieApp.main()
+GenieAppTutorial.main()
