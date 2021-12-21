@@ -1,6 +1,6 @@
-name = "GenieApp"
+name = "GenieAppTutorial"
 uuid = "f3e7eafe-9f1f-470c-aa0a-14ac64aa3f1c"
-authors = ["jeremie.db <jeremie.db@evovest.com>"]
+authors = ["jeremie.desgagne.bouchard <jeremie.bouchard@juliacomputing.com>"]
 version = "0.1.0"
 
 [deps]

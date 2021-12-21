@@ -1,4 +1,4 @@
-module GenieApp
+module GenieAppTutorial
 
 using Genie, Logging, LoggingExtras
 
