@@ -6,7 +6,6 @@ using StipplePlotly
 
 using DataFrames
 using Clustering
-using StatsBase
 import RDatasets: dataset
 
 const data = DataFrames.insertcols!(dataset("datasets", "iris"), :Cluster => zeros(Int, 150))
