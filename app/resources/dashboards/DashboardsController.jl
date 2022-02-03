@@ -1,8 +1,7 @@
 module DashboardsController
 
 using Genie, Genie.Renderer.Html
-using Stipple, StippleUI
-using StipplePlotly
+using Stipple, StippleUI, StipplePlotly
 
 using DataFrames
 using Clustering
