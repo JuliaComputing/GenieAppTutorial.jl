@@ -7,8 +7,8 @@ const config = Settings(
   log_to_file                     = false,
   server_handle_static_files      = true, # for best performance set up Nginx or Apache web proxies and set this to false
   path_build                      = "build",
-  format_julia_builds             = false,
-  format_html_output              = false
+  format_julia_builds             = true,
+  format_html_output              = true
 )
 
 if config.server_handle_static_files
