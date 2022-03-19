@@ -8,4 +8,8 @@ ENV["STARTSERVER"] = true
 ENV["GENIE_ENV"] = "prod"
 ENV["EARLYBIND"] = true
 
+
+@INFO "haskey EARLYBIND" haskey(ENV, "EARLYBIND")
+@info "EARLYBIND" ENV["EARLYBIND"]
+
 include("../bootstrap.jl")
