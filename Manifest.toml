@@ -35,9 +35,9 @@ version = "0.10.5"
 
 [[ChainRulesCore]]
 deps = ["Compat", "LinearAlgebra", "SparseArrays"]
-git-tree-sha1 = "c9a6160317d1abe9c44b3beb367fd448117679ca"
+git-tree-sha1 = "9950387274246d08af38f6eef8cb5480862a435f"
 uuid = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
-version = "1.13.0"
+version = "1.14.0"
 
 [[ChangesOfVariables]]
 deps = ["ChainRulesCore", "LinearAlgebra", "Test"]
@@ -190,9 +190,9 @@ uuid = "781609d7-10c4-51f6-84f2-b8444358ff6d"
 
 [[Genie]]
 deps = ["ArgParse", "Dates", "Distributed", "EzXML", "FilePathsBase", "HTTP", "HttpCommon", "Inflector", "JSON3", "JuliaFormatter", "Logging", "Markdown", "MbedTLS", "Millboard", "Nettle", "OrderedCollections", "Pkg", "REPL", "Random", "Reexport", "Revise", "SHA", "Serialization", "Sockets", "UUIDs", "Unicode", "VersionCheck", "YAML"]
-git-tree-sha1 = "5cb5f98b8b4fafb998e7b36187c657181fafe4de"
+git-tree-sha1 = "c00b86f1ffd08c69e38d52077add198118c5ffeb"
 uuid = "c43c736e-a2d1-11e8-161f-af95117fbd1e"
-version = "4.16.0"
+version = "4.17.0"
 
 [[HTTP]]
 deps = ["Base64", "Dates", "IniFile", "Logging", "MbedTLS", "NetworkOptions", "Sockets", "URIs"]
@@ -377,9 +377,9 @@ uuid = "14a3606d-f60d-562e-9121-12d972cd8159"
 
 [[NearestNeighbors]]
 deps = ["Distances", "StaticArrays"]
-git-tree-sha1 = "16baacfdc8758bc374882566c9187e785e85c2f0"
+git-tree-sha1 = "ded92de95031d4a8c61dfb6ba9adb6f1d8016ddd"
 uuid = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
-version = "0.4.9"
+version = "0.4.10"
 
 [[Nettle]]
 deps = ["Libdl", "Nettle_jll"]
@@ -429,9 +429,9 @@ uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 [[PooledArrays]]
 deps = ["DataAPI", "Future"]
-git-tree-sha1 = "db3a23166af8aebf4db5ef87ac5b00d36eb771e2"
+git-tree-sha1 = "28ef6c7ce353f0b35d0df0d5930e0d072c1f5b9b"
 uuid = "2dfb63ee-cc39-5dd5-95bd-886bf059d720"
-version = "1.4.0"
+version = "1.4.1"
 
 [[Preferences]]
 deps = ["TOML"]
@@ -451,9 +451,9 @@ uuid = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
 [[ProgressMeter]]
 deps = ["Distributed", "Printf"]
-git-tree-sha1 = "afadeba63d90ff223a6a48d2009434ecee2ec9e8"
+git-tree-sha1 = "d7a7aef8f8f2d537104f170139553b14dfe39fe9"
 uuid = "92933f4c-e287-5a05-a399-4b506db050ca"
-version = "1.7.1"
+version = "1.7.2"
 
 [[RData]]
 deps = ["CategoricalArrays", "CodecZlib", "DataFrames", "Dates", "FileIO", "Requires", "TimeZones", "Unicode"]
@@ -534,9 +534,9 @@ uuid = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 [[StaticArrays]]
 deps = ["LinearAlgebra", "Random", "Statistics"]
-git-tree-sha1 = "6976fab022fea2ffea3d945159317556e5dad87c"
+git-tree-sha1 = "4f6ec5d99a28e1a749559ef7dd518663c5eca3d5"
 uuid = "90137ffa-7385-5640-81b9-e52037218182"
-version = "1.4.2"
+version = "1.4.3"
 
 [[Statistics]]
 deps = ["LinearAlgebra", "SparseArrays"]
@@ -556,21 +556,21 @@ version = "0.33.16"
 
 [[Stipple]]
 deps = ["FilePathsBase", "Genie", "JSON3", "Logging", "Mixers", "Observables", "OrderedCollections", "Parameters", "Pkg", "Random", "Reexport", "Requires", "StructTypes"]
-git-tree-sha1 = "c3840b4b93413692e21685a8336bb50d3068080a"
+git-tree-sha1 = "4e675b7e129212c87eca2f70eb217fa0dee94c42"
 uuid = "4acbeb90-81a0-11ea-1966-bdaff8155998"
-version = "0.21.2"
+version = "0.22.0"
 
 [[StipplePlotly]]
-deps = ["Genie", "Stipple"]
-git-tree-sha1 = "55760ff2bbdb9ef80fad19981bd37bd278769323"
+deps = ["Genie", "Requires", "Stipple"]
+git-tree-sha1 = "31253f0ac3f8c5b4e93ba200bfd8e05b8f6f25ab"
 uuid = "ec984513-233d-481d-95b0-a3b58b97af2b"
-version = "0.10.1"
+version = "0.10.2"
 
 [[StippleUI]]
 deps = ["Colors", "DataFrames", "Dates", "Genie", "Stipple"]
-git-tree-sha1 = "b0d8dfb680dd2b6773be1cb53f096a5c512b91b2"
+git-tree-sha1 = "2ce256c40920f3d71fb65d7213e69fff673327d2"
 uuid = "a3c5d34a-b254-4859-a8fa-b86abb7e84a3"
-version = "0.16.0"
+version = "0.17.0"
 
 [[StringEncodings]]
 deps = ["Libiconv_jll"]
