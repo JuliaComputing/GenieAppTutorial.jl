@@ -18,3 +18,6 @@ RDatasets = "ce6b1742-4840-55fa-b093-852dadbb1d8b"
 Stipple = "4acbeb90-81a0-11ea-1966-bdaff8155998"
 StipplePlotly = "ec984513-233d-481d-95b0-a3b58b97af2b"
 StippleUI = "a3c5d34a-b254-4859-a8fa-b86abb7e84a3"
+
+[compat]
+CSV = "0.8"
