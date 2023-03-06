@@ -81,7 +81,7 @@ end
 
 module API
 
-using DashboardsController
+using ..DashboardsController
 using Genie.Router: params
 using JSON3
 

@@ -1,6 +1,6 @@
 module ViewHelper
 
-using Genie, Genie.Flash, Genie.Router
+using GenieSession, GenieSessionFileSession, GenieSession.Flash
 
 export output_flash
 
